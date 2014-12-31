@@ -3,7 +3,7 @@
 	<metadata minClientVersion="2.8">
 		<id>OvermanGroup.OctoPack.PropsConfig</id>
 		<title>OvermanGroup.OctoPack.PropsConfig</title>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
 
 		<owners>Overman Group, LLC.</owners>
 		<authors>Overman Group, LLC.</authors>
@@ -15,11 +15,12 @@
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 
 		<summary>MSBuild properties in '.props' file for OctoPack.</summary>
-		<description>This NuGet package that adds an 'OvermanGroup.OctoPack.props' file to your project so that you can easily configure MSBuild properties for OctoPack within your Visual Studio project.</description>
+		<description>This NuGet package adds an 'OvermanGroup.OctoPack.props' file to your project so that you can easily configure MSBuild properties for OctoPack within your Visual Studio project.</description>
 		<tags>octopus octopack automation deployment</tags>
 
 		<releaseNotes>
 			<![CDATA[
+v1.0.1 - Fixed grammar error in description.
 v1.0.0 - Initial release.
 ]]>
 		</releaseNotes>
