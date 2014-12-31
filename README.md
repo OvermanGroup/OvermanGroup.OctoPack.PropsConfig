@@ -22,6 +22,9 @@ Below is the minimal configuration required for `OvermanGroup.OctoPack.props` to
 	</PropertyGroup>
 </Project>
 ```
+## FEEDBACK
+Please provide any feedback, comments, or issues to this GitHub project [here][3].
 
 [1]: http://docs.octopusdeploy.com/display/OD/Using+OctoPack
 [2]: http://octopusdeploy.com/
+[3]: https://github.com/OvermanGroup/OvermanGroup.OctoPack.PropsConfig/issues
