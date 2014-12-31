@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata minClientVersion="2.8">
+		<id>OvermanGroup.OctoPack.PropsConfig</id>
+		<title>OvermanGroup.OctoPack.PropsConfig</title>
+		<version>1.0.0</version>
+
+		<owners>Overman Group, LLC.</owners>
+		<authors>Overman Group, LLC.</authors>
+		<copyright>Copyright © 2014 Overman Group, LLC. All rights reserved.</copyright>
+
+		<iconUrl>http://i59.tinypic.com/2hh0zg7.png</iconUrl>
+		<projectUrl>https://github.com/OvermanGroup/OvermanGroup.OctoPack.PropsConfig</projectUrl>
+		<licenseUrl>https://raw.githubusercontent.com/OvermanGroup/OvermanGroup.OctoPack.PropsConfig/blob/master/COPYRIGHT.txt</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+		<summary>MSBuild properties in '.props' file for OctoPack.</summary>
+		<description>This NuGet package that adds an 'OvermanGroup.OctoPack.props' file to your project so that you can easily configure MSBuild properties for OctoPack within your Visual Studio project.</description>
+		<tags>octopus octopack automation deployment</tags>
+
+		<releaseNotes>
+			<![CDATA[
+v1.0.0 - Initial release.
+]]>
+		</releaseNotes>
+
+		<dependencies>
+			<dependency id="OctoPack" version="[3.0.41,)" />
+		</dependencies>
+		<developmentDependency>true</developmentDependency>
+	</metadata>
+	<files>
+		<file src="OvermanGroup.OctoPack.props" target="content" />
+		<file src="tools\*" target="tools" />
+		<file src="COPYRIGHT.txt" />
+		<file src="LICENSE.txt" />
+	</files>
+</package>
