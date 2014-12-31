@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EB2746EA-839A-432D-80FF-06DBA707A5BE}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.config = .nuget\NuGet.config
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{23043015-1586-441A-8E9F-6AF97EB67632}"
+	ProjectSection(SolutionItems) = preProject
+		COPYRIGHT.txt = COPYRIGHT.txt
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+		PackageIcon.png = PackageIcon.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OvermanGroup.OctoPack.PropsConfig", "OvermanGroup.OctoPack.PropsConfig\OvermanGroup.OctoPack.PropsConfig.csproj", "{E3079583-7FA9-4325-ADD9-A0064236D5FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OvermanGroup.OctoPack.PropsConfig.Example", "OvermanGroup.OctoPack.PropsConfig.Example\OvermanGroup.OctoPack.PropsConfig.Example.csproj", "{EF694610-E5D3-4FC5-8C40-E8C82C336E30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3079583-7FA9-4325-ADD9-A0064236D5FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3079583-7FA9-4325-ADD9-A0064236D5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3079583-7FA9-4325-ADD9-A0064236D5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3079583-7FA9-4325-ADD9-A0064236D5FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF694610-E5D3-4FC5-8C40-E8C82C336E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF694610-E5D3-4FC5-8C40-E8C82C336E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF694610-E5D3-4FC5-8C40-E8C82C336E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF694610-E5D3-4FC5-8C40-E8C82C336E30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<!-- Place OctoPack properties below this comment... -->
+
+		<!--
+		Uncomment and override any of the following MSBuild properties so that
+		OctoPack will automatically package (and optionally publish) your project
+		after it's built.
+
+		These properties are normally specified in a TFS build definition such as:
+			"/p:RunOctoPack=true;OctoPackPublishPackageToFileShare=\\server\share\drop_folder"
+		But now you may specify them here in your project directly.
+
+		OctoPack Documentation:
+		http://docs.octopusdeploy.com/display/OD/Using+OctoPack
+		https://github.com/OctopusDeploy/OctoPack
+
+		<RunOctoPack Condition="'$(RunOctoPack)'==''">true</RunOctoPack>
+		<OctoPackIncludeTypeScriptSourceFiles Condition="'$(OctoPackIncludeTypeScriptSourceFiles)'==''"></OctoPackIncludeTypeScriptSourceFiles>
+		<OctoPackNuSpecFileName Condition="'$(OctoPackNuSpecFileName)' == ''"></OctoPackNuSpecFileName>
+		<OctoPackAppendToPackageId Condition="'$(OctoPackAppendToPackageId)' == ''"></OctoPackAppendToPackageId>
+		<OctoPackReleaseNotesFile Condition="'$(OctoPackReleaseNotesFile)' == ''"></OctoPackReleaseNotesFile>
+		<OctoPackNuGetExePath Condition="'$(OctoPackNuGetExePath)' == ''"></OctoPackNuGetExePath>
+		<OctoPackPublishPackageToFileShare Condition="'$(OctoPackPublishPackageToFileShare)' == ''"></OctoPackPublishPackageToFileShare>
+		<OctoPackPublishPackageToHttp Condition="'$(OctoPackPublishPackageToHttp)' == ''"></OctoPackPublishPackageToHttp>
+		<OctoPackPublishApiKey Condition="'$(OctoPackPublishApiKey)' == ''"></OctoPackPublishApiKey>
+		<OctoPackPackageVersion Condition="'$(OctoPackPackageVersion)' == ''"></OctoPackPackageVersion>
+		<OctoPackNuGetArguments Condition="'$(OctoPackNuGetArguments)' == ''"></OctoPackNuGetArguments>
+		<OctoPackNugetProperties Condition="'$(OctoPackNuGetProperties)' == ''"></OctoPackNugetProperties>
+		<OctoPackEnforceAddingFiles Condition="'$(OctoPackEnforceAddingFiles)' == ''"></OctoPackEnforceAddingFiles>
+		<OctoPackNuGetPushProperties Condition="'$(OctoPackNuGetPushProperties)' == ''"></OctoPackNuGetPushProperties>
+		<OctoPackPublishPackagesToTeamCity Condition="'$(OctoPackPublishPackagesToTeamCity)' == ''"></OctoPackPublishPackagesToTeamCity>
+		<OctoPackProjectName Condition="'$(OctoPackProjectName)' == ''">$(MSBuildProjectName)</OctoPackProjectName>
+		<OctoPackIgnoreNonRootScripts Condition="'$(OctoPackIgnoreNonRootScripts)' == ''"></OctoPackIgnoreNonRootScripts>
+		<OctoPackAppConfigFileOverride Condition="'$(OctoPackAppConfigFileOverride)' == ''"></OctoPackAppConfigFileOverride>
+		<OctoPackAppendProjectToFeed Condition="'$(OctoPackAppendProjectToFeed)' == ''"></OctoPackAppendProjectToFeed>
+		-->
+	</PropertyGroup>
+</Project>
