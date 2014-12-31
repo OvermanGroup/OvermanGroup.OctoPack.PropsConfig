@@ -6,7 +6,7 @@ This NuGet package that adds an `OvermanGroup.OctoPack.props` file to your proje
 [OctoPack][1] is a great tool to quickly create [Octopus Deploy][2] compatible NuGet packages from your projects. Unfortunately for OctoPack to create packages, it requires the `/p:RunOctoPack=true` argument to be explicitly specified with MSBuild. Normally this isn't a problem for TFS builds (or any other CI) as you can easily add the MSBuild argument, but it's inconvienent when building manually within the Visual Studio IDE.
 
 ## INSTALLATION
-To install OvermanGroup.NuGet.Packager, simply run the following command in the Package Manager Console:
+To install OvermanGroup.OctoPack.PropsConfig, simply run the following command in the Package Manager Console:
 
     PM> Install-Package OvermanGroup.OctoPack.PropsConfig
 
